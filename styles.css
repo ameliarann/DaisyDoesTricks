@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*
+  CIS 155 Project
+  Amelia Garripoli
+  V3 - 3 June 2019
+*/
+html {
+	background-color: peru;
+}
+
+body {
+	width: 90%;
+	min-width: 300;
+}
+
+body > h1 {
+	font: Arial, Verdana, sans-serif;
+}
