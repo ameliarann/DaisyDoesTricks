@@ -15,7 +15,7 @@ body {
 	width: 90%;
 	min-width: 300;
 	margin-left: auto;
-	margin-right: auto;
+	
 }
 
 body > h1 {
@@ -23,7 +23,7 @@ body > h1 {
 	font-weight: bold;
 }
 
-@media only screen and (max-width: 480) {
+@media only screen and (max-width: 480px) {
 	body {
 		width: 100%;
 		min-width: 100%;
