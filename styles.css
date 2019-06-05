@@ -6,9 +6,16 @@
   V3 - 3 June 2019
   V4 - 5 June 2019
 */
+
+html {
+	background-color: peru;
+}
+
 body {
 	width: 90%;
 	min-width: 300;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body > h1 {
@@ -24,6 +31,3 @@ body > h1 {
 }
 
 
-html {
-	background-color: peru;
-}
