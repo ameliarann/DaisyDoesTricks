@@ -4,16 +4,27 @@
   CIS 155 Project
   Amelia Garripoli
   V3 - 3 June 2019
+  V4 - 5 June 2019
 */
-html {
-	background-color: peru;
-}
-
 body {
 	width: 90%;
 	min-width: 300;
 }
 
 body > h1 {
-	font: Arial, Verdana, sans-serif;
+	font: Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 480) {
+	body {
+		width: 100%;
+		min-width: 100%;
+	}
+}
+
+@media only screen and (min-width: 481) {
+	html {
+		background-color: peru;
+	}
 }
